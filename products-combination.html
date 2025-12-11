@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Combination Skin – Recommended Products</title>
+    
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Poppins', sans-serif;
+            background: #fff6fb; /* soft pink */
+            color: #4a4a4a;
+        }
+
+        /* Navbar */
+        nav {
+            background: white;
+            padding: 18px 40px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0 2px 12px rgba(0,0,0,0.05);
+            position: sticky;
+            top: 0;
+            z-index: 10;
+        }
+
+        nav .logo {
+            font-size: 22px;
+            font-weight: 600;
+            color: #c27acb; /* lilac */
+        }
+
+        nav a {
+            text-decoration: none;
+            margin-left: 25px;
+            font-size: 15px;
+            color: #555;
+        }
+
+        /* Hero section */
+        .hero {
+            padding: 50px 20px;
+            text-align: center;
+        }
+
+        .hero h1 {
+            font-size: 32px;
+            color: #c27acb;
+        }
+
+        .hero p {
+            font-size: 16px;
+            max-width: 600px;
+            margin: auto;
+            color: #6e6e6e;
+        }
+
+        /* Product grid */
+        .product-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 25px;
+            padding: 40px;
+        }
+
+        .card {
+            background: white;
+            border-radius: 18px;
+            box-shadow: 0 3px 12px rgba(0,0,0,0.08);
+            padding: 20px;
+            text-align: center;
+            transition: 0.2s;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 5px 18px rgba(0,0,0,0.11);
+        }
+
+        .card img {
+            width: 100%;
+            border-radius: 12px;
+            margin-bottom: 15px;
+        }
+
+        .card h3 {
+            color: #c27acb;
+            margin-bottom: 8px;
+        }
+
+        .card p {
+            font-size: 14px;
+            color: #555;
+        }
+
+        /* Footer */
+        footer {
+            margin-top: 50px;
+            background: #fdeaff; 
+            padding: 30px;
+            text-align: center;
+            color: #555;
+            font-size: 14px;
+        }
+                .back {
+            display: block;
+            width: fit-content;
+            margin: 0 auto;
+            margin-bottom: 20px;
+            padding: 10px 20px;
+            background: #c27acb;
+            color: #fff;
+            border-radius: 10px;
+            text-decoration: none;
+            font-size: 14px;
+            transition: 0.2s;
+        }
+
+        .card-link {
+            text-decoration: none;
+            color: inherit;
+        }
+
+        .back:hover {
+            background: #a55bb5;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- NAVBAR -->
+    <nav>
+        <div class="logo">SymairaBeauty</div>
+        <div>
+            <a href="index.html">Home</a>
+            <a href="index.html">Skin Types</a>
+            <a href="products-combination.html">Products</a>
+        </div>
+    </nav>
+
+    <!-- HERO SECTION -->
+    <div class="hero">
+        <h1>Recommended Products for Combination Skin</h1>
+        <p>
+            Kulit kombinasi membutuhkan produk yang mampu menyeimbangkan area berminyak (T-zone)
+            dan area kering sekaligus. Berikut rekomendasi produk yang aman, ringan, dan efektif.
+        </p>
+    </div>
+
+    <!-- PRODUCT GRID -->
+    <div class="product-container">
+
+        <a href="moisturizer-kom.html" class="card-link">
+            <div class="card">
+                <img src="images/mois_com.png" alt="Cleanser">
+                <h3>Moisturizer</h3>
+                <p>La Roche-Posay Toleriane Ultra Light / Hyalu B5 (Rp300.000 - Rp450.000)</p>
+            </div>
+        </a>
+
+        <a href="sunscreen-kom.html" class="card-link">
+            <div class="card">
+                <img src="images/sunscreen_com.png" alt="Toner">
+                <h3>Sunscreen</h3>
+                <p>ElshéSkin Daily Protection Gel (Rp180.000 - Rp250.000)</p>
+            </div>
+        </a>
+
+        <a href="primer-kom.html" class="card-link">
+            <div class="card">
+                <img src="images/primer_com.jpg" alt="Moisturizer">
+                <h3>Primer</h3>
+                <p>Tarte Poreless Mattifying Primer (Rp500.000 – Rp650.000)</p>
+            </div>
+        </a>
+
+        <a href="foundation-kom.html" class="card-link">
+            <div class="card">
+                <img src="images/foundation_com.jpg" alt="Foundation">
+                <h3>Foundation</h3>
+                <p>Dior Forever Skin Glow (Rp1.000.000 – Rp1.200.000)</p>
+            </div>
+        </a>
+
+        <a href="concealer-kom.html" class="card-link">
+            <div class="card">
+                <img src="images/concealer_com.jpg" alt="Foundation">
+                <h3>Concealer</h3>
+                <p>NARS Soft Matte Complete Concealer (Rp520.000 – Rp600.000)</p>
+            </div>
+        </a>
+
+        <a href="powder-kom.html" class="card-link">
+            <div class="card">
+                <img src="images/powder_com.jpg" alt="Foundation">
+                <h3>Powder</h3>
+                <p>Dior Forever Natural Velvet Powder (Rp800.000 - Rp1.100.000)</p>
+            </div>
+        </a>
+
+        <a href="setting-kom.html" class="card-link">
+            <div class="card">
+                <img src="images/setting_com.jpg" alt="Foundation">
+                <h3>Setting Spray</h3>
+                <p>Too Faced Hangover 3-in-1 Replenishing Primer & Setting Spray (Rp400.000 - Rp650.000) </p>
+            </div>
+        </a>
+
+    </div>
+    x
+        <a class="back" href="index.html">← Kembali</a>
+
+    <!-- FOOTER -->
+    <footer>
+        © 2025 Dira Beauty • All Rights Reserved
+    </footer>
+
+</body>
+</html>

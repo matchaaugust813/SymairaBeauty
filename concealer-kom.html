@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Normal Skin – Recommended Products</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: "Poppins", sans-serif;
+            background: #fff6fb; /* soft pink */
+            color: #4a4a4a;
+        }
+
+        /* Navbar */
+        nav {
+            background: #ffffff;
+            padding: 18px 40px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0 2px 12px rgba(0, 0, 0, 0.05);
+            position: sticky;
+            top: 0;
+            z-index: 10;
+        }
+
+        nav .logo {
+            font-size: 22px;
+            font-weight: 600;
+            color: #c27acb; /* lilac */
+        }
+
+        nav a {
+            text-decoration: none;
+            margin-left: 25px;
+            font-size: 15px;
+            color: #555;
+        }
+
+        /* Hero */
+        .hero {
+            padding: 60px 20px;
+            text-align: center;
+        }
+
+        .hero h1 {
+            font-size: 34px;
+            color: #c27acb;
+        }
+
+        .hero p {
+            max-width: 650px;
+            margin: auto;
+            margin-top: 10px;
+            font-size: 16px;
+            color: #6e6e6e;
+        }
+
+        /* Product Grid */
+        .product-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 25px;
+            padding: 40px;
+        }
+
+        .card {
+            background: #ffffff;
+            border-radius: 18px;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 3px 12px rgba(0, 0, 0, 0.08);
+            transition: 0.25s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 5px 18px rgba(0, 0, 0, 0.12);
+        }
+
+        .card img {
+            width: 100%;
+            border-radius: 12px;
+            margin-bottom: 15px;
+        }
+
+        .card h3 {
+            color: #c27acb;
+            margin-bottom: 8px;
+        }
+
+        .card p {
+            font-size: 14px;
+            color: #575757;
+        }
+
+        /* Footer */
+        footer {
+            background: #fdeaff;
+            padding: 28px;
+            margin-top: 40px;
+            text-align: center;
+            font-size: 14px;
+            color: #555;
+        }
+                .back {
+            display: block;
+            width: fit-content;
+            margin: 0 auto;
+            margin-bottom: 20px;
+            padding: 10px 20px;
+            background: #c27acb;
+            color: #fff;
+            border-radius: 10px;
+            text-decoration: none;
+            font-size: 14px;
+            transition: 0.2s;
+        }
+
+        .back:hover {
+            background: #a55bb5;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- NAVBAR -->
+    <nav>
+        <div class="logo">SymairaBeauty</div>
+            <div>
+            <a href="index.html">Home</a>
+            <a href="index.html">Skin Types</a>
+            <a href="products-combination.html">Products</a>
+        </div>
+    </nav>
+
+    <!-- HERO -->
+    <section class="hero">
+        <h1>Recommended Products for Combination Skin</h1>
+        <p>
+            Concealer yang cocok untuk kulit kombinasi biasanya memiliki coverage menengah dengan sedikit humektan agar tidak membuat bawah mata kering, namun juga cukup stabil untuk area berminyak.
+        </p>
+    </section>
+
+    <!-- PRODUCT GRID -->
+    <div class="product-container">
+
+        <div class="card">
+            <img src="images/concealer_com.jpg" alt="Cleanser">
+            <h3>Concealer</h3>
+            <p>NARS Soft Matte Complete Concealer (Rp520.000 – Rp600.000)</p>
+        </div>
+
+        <div class="card">
+            <img src="images/con_com2.jpg" alt="Toner">
+            <h3>Concealer</h3>
+            <p>Revlon ColorStay Concealer (Rp120.000 – Rp170.000)</p>
+        </div>
+
+        <div class="card">
+            <img src="images/con_com3.jpg" alt="Moisturizer">
+            <h3>Concealer</h3>
+            <p>Maybelline Fit Me Concealer (Rp90.000 – Rp130.000)</p>
+        </div>
+
+        <div class="card">
+            <img src="images/con_com4.png" alt="Foundation">
+            <h3>Concealer</h3>
+            <p>Mizzu Hide’em Concealer (Rp35.000 – Rp65.000)</p>
+        </div>
+
+
+    </div>
+    <a class="back" href="products-combination.html">← Kembali</a>
+    <!-- FOOTER -->
+    <footer>
+        © 2025 Dira Beauty • All Rights Reserved
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Normal Skin – Recommended Products</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: "Poppins", sans-serif;
+            background: #fff6fb; /* soft pink */
+            color: #4a4a4a;
+        }
+
+        /* Navbar */
+        nav {
+            background: #ffffff;
+            padding: 18px 40px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0 2px 12px rgba(0, 0, 0, 0.05);
+            position: sticky;
+            top: 0;
+            z-index: 10;
+        }
+
+        nav .logo {
+            font-size: 22px;
+            font-weight: 600;
+            color: #c27acb; /* lilac */
+        }
+
+        nav a {
+            text-decoration: none;
+            margin-left: 25px;
+            font-size: 15px;
+            color: #555;
+        }
+
+        /* Hero */
+        .hero {
+            padding: 60px 20px;
+            text-align: center;
+        }
+
+        .hero h1 {
+            font-size: 34px;
+            color: #c27acb;
+        }
+
+        .hero p {
+            max-width: 650px;
+            margin: auto;
+            margin-top: 10px;
+            font-size: 16px;
+            color: #6e6e6e;
+        }
+
+        /* Product Grid */
+        .product-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 25px;
+            padding: 40px;
+        }
+
+        .card {
+            background: #ffffff;
+            border-radius: 18px;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 3px 12px rgba(0, 0, 0, 0.08);
+            transition: 0.25s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 5px 18px rgba(0, 0, 0, 0.12);
+        }
+
+        .card img {
+            width: 100%;
+            border-radius: 12px;
+            margin-bottom: 15px;
+        }
+
+        .card h3 {
+            color: #c27acb;
+            margin-bottom: 8px;
+        }
+
+        .card p {
+            font-size: 14px;
+            color: #575757;
+        }
+
+        /* Footer */
+        footer {
+            background: #fdeaff;
+            padding: 28px;
+            margin-top: 40px;
+            text-align: center;
+            font-size: 14px;
+            color: #555;
+        }
+                .back {
+            display: block;
+            width: fit-content;
+            margin: 0 auto;
+            margin-bottom: 20px;
+            padding: 10px 20px;
+            background: #c27acb;
+            color: #fff;
+            border-radius: 10px;
+            text-decoration: none;
+            font-size: 14px;
+            transition: 0.2s;
+        }
+
+        .back:hover {
+            background: #a55bb5;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- NAVBAR -->
+    <nav>
+        <div class="logo">SymairaBeauty</div>
+            <div>
+            <a href="index.html">Home</a>
+            <a href="index.html">Skin Types</a>
+            <a href="products-combination.html">Products</a>
+        </div>
+    </nav>
+
+    <!-- HERO -->
+    <section class="hero">
+        <h1>Recommended Products for Combination Skin</h1>
+        <p>
+            Sunscreen yang cocok untuk kulit kombinasi biasanya memiliki tekstur ringan, menggunakan gel polymer namun tetap mengandung bahan hydrating seperti niacinamide atau ceramide ringan. Hasilnya tidak greasy tetapi tetap memberi hidrasi.
+        </p>
+    </section>
+
+    <!-- PRODUCT GRID -->
+    <div class="product-container">
+
+        <div class="card">
+            <img src="images/sunscreen_com.png" alt="Cleanser">
+            <h3>Sunscreen</h3>
+            <p>ElshéSkin Daily Protection Gel (Rp180.000 - Rp250.000)</p>
+        </div>
+
+        <div class="card">
+            <img src="images/sun_com2.png" alt="Toner">
+            <h3>Sunscreen</h3>
+            <p>Carasun Solar Smart UV Protector (Rp80.000 - Rp150.000)</p>
+        </div>
+
+        <div class="card">
+            <img src="data:image/jpeg;base64,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" alt="Moisturizer">
+            <h3>Sunscreen</h3>
+            <p>The Originote Ceramides Sunscreen (Rp50.000 - Rp75.000)</p>
+        </div>
+
+        <div class="card">
+            <img src="images/sun_com4.png" alt="Foundation">
+            <h3>Sunscreen</h3>
+            <p>Implora Daily Emulsion Sunscreen (Rp30.000 - Rp50.000)</p>
+        </div>
+
+
+    </div>
+    <a class="back" href="products-combination.html">← Kembali</a>
+    <!-- FOOTER -->
+    <footer>
+        © 2025 Dira Beauty • All Rights Reserved
+    </footer>
+
+</body>
+</html>
